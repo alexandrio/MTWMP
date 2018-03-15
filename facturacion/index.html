@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+  <title>Sistema Facturación</title>
+</head>
+
+<body>
+  <!-- fixed-top -->
+  <header id="header-contenedor">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md">
+      <span class="navbar-brand">Sistema Facturación</span>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white">&#9776;</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Usuarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Clientes</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-12 col-md-10 offset-md-1">
+        <div class="table-header">
+          <h4>Búsqueda de Usuarios</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <div class="row">
+          <div class="col-12 col-md-2">
+            <label>
+              <strong>Nombre</strong>
+            </label>
+          </div>
+
+
+
+          <div class="col-12 col-md-6">
+            <input type="text" id="cliente" class="form-control" value="" maxlength="100">
+          </div>
+
+          <!-- justify-content-md-start a partir de md muestralos justificado-->
+          <div class="col-12 col-md-4 d-flex justify-content-md-start justify-content-end mt-1 mt-md-0">
+            <button id="btnBuscar" name="btnBuscar" class="btn btn-info ">Buscar</button>
+            <button id="btnNuevo" name="btnNuevo" class="btn btn-primary ml-1">Nuevo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th class="d-none d-md-table-cell">#</th>
+              <th class="d-none d-md-table-cell">Nombre</th>
+              <th class="d-none d-md-table-cell">Apellidos</th>
+              <th class="d-table-cell d-md-none">Nombre Completo</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="usuarios-table-body">
+            <tr>
+              <td class="d-none d-md-table-cell">1</td>
+              <td class="d-none d-md-table-cell">Carlos Alejandro</td>
+              <td class="d-none d-md-table-cell">Pedroza Rivera</td>
+              <td class="d-table-cell d-md-none">Carlos Alejandro Pedroza Rivera</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <!--<footer class=" fixed-bottom container-fluid text-center bg-secondary text-white d-none d-md-block">
+        <p>Hugo Gómez Arenas 2017</p>
+    </footer>-->
+
+
+  <!-- /Menu -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

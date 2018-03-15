@@ -1,0 +1,34 @@
+body{
+    font-family: 'Merriweather', serif;
+    
+}
+
+
+ 
+
+#header-contenedor{
+    background-color: #3F51B5;
+    color: white;
+}
+
+.btn.btn-programacionxyz{
+    background-color: #FF4081;
+    color: white;
+    margin-left: 5px;
+}
+
+.btn.btn-programacionxyz:hover {
+    background-color: #455a64;
+}
+
+.btn.btn-programacionxyz:active{
+    background-color:#FF4081;
+}
+
+.nav-link:hover{
+    color : white;
+}
+
+.activa{
+    color: white;
+}
