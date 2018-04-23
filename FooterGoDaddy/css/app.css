@@ -1,0 +1,29 @@
+body {
+    background-color:black;
+}
+
+#titulo {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+ 
+
+ul, li {
+    color: white;
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+}
+
+.textoHeader
+{
+    color:white;
+    font-weight: bold;
+    
+}
